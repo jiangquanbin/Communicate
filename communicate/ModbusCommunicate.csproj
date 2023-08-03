@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>ModbusCommunicate</AssemblyName>
+    <RootNamespace>ModbusCommunicate</RootNamespace>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;net462</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Communicate.Core\Communicate.Core.csproj" />
+  </ItemGroup>
+
+</Project>
